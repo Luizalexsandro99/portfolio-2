@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>Contrate dev Luiz</title>
+    <link rel="stylesheet" href="contrate.css">
+  </head>
+  <body>
+    <header style="background-color: rgba(2, 2, 124, 0.932);" >
+        <nav class="navbar navbar-expand-sm navbar-dark ">
+  
+          <div class="container">
+            <div id="nomeluiz">
+              <h1 id="luiz">Luiz <br> <span>Alexsandro</span></h1>
+            </div>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+              <span class="navbar-toggler-icon"> </span>
+            </button>
+  
+            <div style="margin-right: 140px;" class="collapse navbar-collapse" id="nav-principal">
+  
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://github.com/luizalexsandro99" class="nav-link">GitHUb</a>
+                </li>
+                <li class="nav-item">
+                  <a href=" https://www.linkedin.com/in/luiz-alexsandro-a91861235/" class="nav-link">Linkedin</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="btn btn-outline-light ml-4 active">Contrate</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <section id="corpo" class="container">
+        <div class="row">
+
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group"> <!--Define a div como grupo-->
+                        <label for="usuario">Nome completo :</label>
+                        <input class="form-control" type="text" id="usuario" placeholder="Digite seu nome completo"> <!--Form-control para formatar o estilo do bloco-->
+                    </div>
+                    <div class="form-gorup" > <!--Define a div como grupo-->
+                        <label for="email">Email :</label>
+                        <input class="form-control" type="email" id="email" placeholder="Digite seu email"> <!--Readonly bloqueia o input para o user não poder digitar-->
+                        <small class="form-text">Email será validado</small>
+                    </div>
+                    <div style="margin-top: 15px;" class="form-gorup" > <!--Define a div como grupo-->
+                        <label for="endereco">Endereço :</label>
+                        <input class="form-control" type="text" id="endereco" placeholder="Digite seu endereço"> <!--Readonly bloqueia o input para o user não poder digitar-->
+                    </div>
+                    <div style="margin-top: 15px;" class="form-gorup" > <!--Define a div como grupo-->
+                        <label for="cep">CEP :</label>
+                        <input class="form-control" type="text" id="cep" placeholder="Digite seu CEP"> <!--Readonly bloqueia o input para o user não poder digitar-->
+                    </div>
+                    <div style="margin-top: 15px;" class="form-gorup" > <!--Define a div como grupo-->
+                        <label for="CPF">Cpf :</label>
+                        <input class="form-control" type="text" id="cpf" placeholder="Digite seu CPF"> <!--Readonly bloqueia o input para o user não poder digitar-->
+                    </div>
+                    <div style="margin-top: 20px;" class="form-group">
+                        <label for="estados">Forma de pagamento : </label>
+                        <select class="form-control" id="estados"> <!--Selec para opçoes clicaveis-->
+                            <option>Cartão</option> <!--Opção do select-->
+                            <option>Espécie</option> <!--Opção do select-->
+                            <option>Pix</option> <!--Opção do select-->
+                            <option>Boleto</option> <!--Opção do select-->
+                        </select>
+                        <small class="form-text">50% no momento da contratação</small>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <form action="">
+                    <div class="form-group"> <!--Define a div como grupo-->
+                        <label for="usuario">Nome do projeto :</label>
+                        <input class="form-control" type="text" id="usuario" placeholder="Projeto x"> <!--Form-control para formatar o estilo do bloco-->
+                    </div>
+                    <div class="form-group">
+                        <label for="tempo">Quanto tempo de empresa? </label>
+                        <select class="form-control" id="tempo"> <!--Selec para opçoes clicaveis-->
+                            <option>Não responder</option> <!--Opção do select-->
+                            <option>0 a 1 ano</option> <!--Opção do select-->
+                            <option>1 a 3 anos</option> <!--Opção do select-->
+                            <option>+ 3 anos</option> <!--Opção do select-->
+                        </select>
+                        <small class="form-text">Importante para orçamentos</small>
+                    </div>
+                    <div style="margin-top: -2px;" class="form-group">
+                        <label for="fat">Faturamento da empresa anual : </label>
+                        <select class="form-control" id="fat"> <!--Selec para opçoes clicaveis-->
+                            <option>Não responder</option> <!--Opção do select-->
+                            <option>10k ou menos</option> <!--Opção do select-->
+                            <option>10 à 20k</option> <!--Opção do select-->
+                            <option>20 à 30k</option> <!--Opção do select-->
+                            <option>30 à 40k</option>
+                            <option>+ 40k</option>
+                        </select>
+                    </div>
+                    <div style="margin-top: -2px;" class="form-group">
+                        <label for="fisica-virtual">Empresa : </label>
+                        <select class="form-control" id="fisica-virtual"> <!--Selec para opçoes clicaveis-->
+                            <option>Física</option> <!--Opção do select-->
+                            <option>Virtual</option> <!--Opção do select-->
+                        </select>
+                    </div>
+                    <div id="arquivo" class="custom-file">
+                        <input class="custom-file-input" type="file" id="arquivo">
+                        <label class="custom-file-label">Arquivo do projeto</label>
+                    </div>
+                    <div  style="margin-top: 30px;" class="form-group">
+                        <textarea class="form-control" id="mensagem" rows="3" placeholder="Resuma o projeto"></textarea>
+                    </div>
+                </form>
+            </div>
+                <div id="fim" class="jumbotron ">
+                    <div class="container">
+                      <h1 class="display-4">Estamos quase lá</h1>
+                    <p class="lead">Agora que você respondeu o formulário, já tenho algumas informações necessárias. Vou avaliar o seu projeto, dar uma olhada na sua empreda, e assim, ver como poderei agregar e realizar o serviço com excelência. Em breve, entratei em contato via e-mail, e passarei algumas informações por lá!</p>
+                    <hr>
+                    <p>Caso necessite de urgência, obtenha resposta mais rápido pelo Whatsapp</p>
+                    <a id="whatsapp" style="background-color: rgb(5, 253, 5); color: aliceblue;" class="btn btn-lg" href="">Whatsapp</a>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+
+
+
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

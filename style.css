@@ -1,0 +1,349 @@
+@media (max-width: 576px) {
+    #luiz {
+        margin-left: -40px;
+    }
+
+    #nomeluiz {
+        margin-left: 150px;
+    }
+
+    #nomeluiz {
+        color: aliceblue;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 50px;
+    }
+
+    #col1 {
+        background-color: rgb(50, 50, 175);
+    }
+
+    #col1 img {
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #col2 {
+        background-color: rgb(50, 50, 175);
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color: aliceblue;
+        text-indent: 12px;
+    }
+
+    #col2 h1 {
+        text-align: center;
+    }
+
+    #col2 p {
+        text-align: justify;
+    }
+
+    #col3 {
+        display: none;
+    }
+
+    #skil-cell {
+        padding-top: 10px ;
+        display: block;
+        background-image: url(transferir.jpg);
+        background-position: center center;
+        background-color: rgba(0, 0, 255, 0.295);
+    }
+
+    #skil-cell h1 {
+        text-align: center;
+        color: aliceblue;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.452);
+    }
+
+    #skil-cell p {
+        color: aliceblue;
+        text-indent: 15px;
+    }
+
+    #meus-projetos {
+        background-color: rgb(50, 50, 175);
+        color: aliceblue;
+    }
+
+    #meus-projetos h4 {
+        font-size: 2.9em;
+        text-decoration: underline;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.877);
+        text-align: center;
+    }
+
+    #meus-projetos p {
+        text-align: justify;
+        text-indent: 15px;
+    }
+
+    #links-site {
+        background-image: url(transferir.jpg);
+        background-position: center center;
+    }
+
+    #links-site h4 {
+        color: aliceblue;
+        font-size: 2em;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #links-site ul {
+        list-style: none;
+    }
+
+    #links-site li a {
+        color: aliceblue;
+    }
+
+    #primeiros-links {
+        float: left;
+        margin-left: -25px;
+    }
+
+    #primeiros-links li{
+        margin-top: 10px;
+    }
+
+    #segundos-links {
+        float: right;
+    }
+
+    #segundos-links li {
+        margin-top: 10px;
+    }
+
+    #paragrafo-skils {
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .imagens-desk {
+        display: none;
+    }
+
+    .imagens-desk2 {
+        display: none;
+    }
+
+    .imgcel {
+        background-color: rgba(1, 1, 43, 0.849);
+        text-align: center;
+        color: aliceblue;
+        margin-top: -25px;
+        margin-bottom: 15px;
+    }
+
+    .imgcel h4 {
+        margin-top: 15px;
+    }
+
+    #footerr {
+        display: none;
+    }
+
+    
+}
+
+   /* Inicio parte grande */
+@media (min-width:577px) {
+    #nomeluiz {
+        color: aliceblue;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 50px;
+    }
+
+    #nomeluiz h1 span {
+        color: antiquewhite;
+    }
+
+    #col1 {
+        background-color: rgb(50, 50, 175);
+    }
+
+    #col1 img {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 30px;
+    }
+
+    #col1 img:hover {
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.575);
+    }
+
+    #col2 {
+        background-color: rgb(50, 50, 175);
+        padding-top: 20px;
+        padding-right: 50px;
+        color: aliceblue;
+        text-indent: 12px;
+    }
+
+    #col2 {
+        transition: linear 1s;
+    }
+
+    #col2:hover {
+        background-color: rgb(1, 1, 20);
+        transform: scale(1.3);
+    }
+
+    #col3 {
+        background-color: rgba(0, 0, 255, 0.295);
+        text-align: justify;
+    }
+
+    #col3 h4 {
+        margin-left: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
+    }
+
+    #col3 {
+        transition: linear 0.2s;
+    }
+
+    #col3:hover {
+        transform: rotatez(360deg);
+        background-color: rgba(93, 93, 172, 0.774);
+        color: white;
+    }
+
+    #lista-top li {
+        margin-bottom: 17px;
+        list-style: none;
+    }
+
+    #skil-cell {
+        display: none;
+    }
+
+    #meus-projetos {
+        background-color: rgba(0, 0, 255, 0.295);
+        
+    }
+
+    #links-site {
+        background-color: rgb(50, 50, 175);
+        color: aliceblue;
+    }
+
+    #links-site h4 {
+        text-align: center;
+    }
+
+    #links-site ul {
+        list-style: inside;
+        list-style: none;
+    }
+
+    #links-site li a {
+        color: aliceblue;
+    }
+
+    #primeiros-links {
+        margin-top: 60px;
+        margin-left: 10px;
+        float: left;
+        margin-top: 14px;
+    }
+
+    #primeiros-links li {
+        margin-left: -45px;
+        margin-bottom: 25px;
+    }
+
+    #segundos-links {
+        float: right;
+        margin-top: -12.5px;
+    }
+
+    #segundos-links li {
+        margin-top: 25px;
+    }
+
+    #links-site h4 {
+        font-size: 2em;
+        margin-top: 10px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
+    }
+
+    #paragrafo-skils {
+        display: none;
+    }
+
+    .imagens-desk {
+        background-image: url(transferir.jpg);
+    }
+
+    .imagens-desk img {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: block;
+        box-shadow: 1px 1px 5px rgba(0, 0, 255, 0.562);
+    }
+
+    .imagens-desk h4 {
+        color: aliceblue;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .imagens-desk img {
+        transition: 1s;
+    }
+
+    .imagens-desk img:hover {
+        transform: scale(1.5);
+    }
+
+    .imagens-desk2 {
+        background-image: url(transferir2.jpg);
+    }
+
+    .imagens-desk2 img {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: block;
+        box-shadow: 1px 1px 5px rgba(0, 0, 255, 0.562);
+    }
+
+    .imagens-desk2 h4 {
+        color: aliceblue;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .imagens-desk2 img {
+        transition: 1s;
+    }
+
+    .imagens-desk2 img:hover {
+        transform: scale(1.5);
+    }
+
+    .imgcel {
+        display: none;
+    }
+}
+
+@media (min-width:900px) {
+    #col2 p {
+        font-size: 1.1em;
+    }
+}
+
+footer {
+    background-color: rgba(1, 1, 41, 0.671);
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 0px;
+    width: 1140px;
+    display: block;
+    margin: -25px auto;
+}
